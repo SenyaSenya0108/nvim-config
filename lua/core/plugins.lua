@@ -22,5 +22,10 @@ require("lazy").setup({
       			"MunifTanjim/nui.nvim",-- "3rd/image.nvim", -- Optional image support in preview window: See `# Preview Mode` for more information
     		}
 	},
-	{'nvim-treesitter/nvim-treesitter'}
+	{'nvim-treesitter/nvim-treesitter'},
+	{'neovim/nvim-lspconfig'},
+	{'williamboman/mason.nvim'},
+	{'hrsh7th/cmp-nvim-lsp'}, {'hrsh7th/cmp-buffer'}, {'hrsh7th/cmp-path'},
+    	{'hrsh7th/cmp-cmdline'}, {'hrsh7th/nvim-cmp'},
+	{'joshdick/onedark.vim'}
 })
